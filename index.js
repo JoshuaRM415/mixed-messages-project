@@ -5,13 +5,13 @@ const morgan = require('morgan')
 const errorHandler = require('errorhandler')
 
 
-app.use(express.static('/public'))
+app.use(express.static('./public'))
 app.use(morgan('short'));
 app.use(bodyParser.json());
 
 
 //code to define port number. Im not so sure about how this works.
-const PORT = process.env.PORT || 4000;
+const PORT = 80;
 
 app.use(errorHandler());
 
