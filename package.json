@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/JoshuaRM415/mixed-messages-project#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   }
 }
