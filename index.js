@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 
 //code to define port number. Im not so sure about how this works.
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
 
 app.use(errorHandler());
 
